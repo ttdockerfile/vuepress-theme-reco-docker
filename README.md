@@ -1,5 +1,7 @@
 [vuepress-theme-reco](https://github.com/vuepress-reco/vuepress-theme-reco)的依赖预下载镜像，方便自动化构建
 
+在预下载镜像中我新增了`git`和`uuid`依赖
+
 构建`Dockerfile`示例
 
 `version`以`rc.22`为例
