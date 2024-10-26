@@ -1,0 +1,16 @@
+{
+  "name": "note",
+  "version": "2.0.0",
+  "description": "依赖",
+  "repository": "https://github.com/buyfakett",
+  "author": "buyfakett <buyfakett@vip.qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "node .vuepress/generateBuildInfo.js && vuepress build ."
+  },
+  "dependencies": {
+    "uuid": "^9.0.1",
+    "vuepress-theme-reco": "2.0.0-rc.19"
+  }
+}
